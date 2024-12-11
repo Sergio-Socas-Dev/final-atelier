@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Atelier 78 - Comida Increíble y Deliciosa</title>
+  <meta name="title" content="Atelier 78 - Comida Increíble y Deliciosa">
+  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Atelier 78</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          C. El Horno, 26, 38678 Adeje, Santa Cruz de Tenerife.
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Daily : 10.00 am to 22.00 pm</span>
+      </div>
+
+      <a href="tel:+11234567890" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+ 34 822 17 46 64 <br>
+          + 34 604 20 26 05 </span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:booking@restaurant.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">booking@restaurant.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+<!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/Atelier 78.png" width="160" height="50" alt="Grilli - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/Atelier 78.png" width="160" height="50" alt="Atelier78 - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Menus</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Sobre Nosotros</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contacto</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visítanos<p>
+
+          <address class="body-4">
+            C. El Horno, 26, 38678 Adeje <br>
+            Santa Cruz de Tenerife
+          </address>
+
+          <p class="body-4 navbar-text">Abierto: 10.00 am - 22.00pm</p>
+
+          <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">booking@Atelier-78.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Reservas</p>
+
+          <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
+            + 34 604 20 26 05
+          </a>
+        </div>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-1.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Tradición e Higiene</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Por el amor de <br>
+              la buena comida 
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Ven con tu Familia y Disfruta la Alegría de Sabores Irresistibles
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Nuestro Menú</span>
+
+              <span class="text text-2" aria-hidden="true">Nuestro Menú</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-2.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">delightful experience</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Sabores de Temporada con un Toque<br>
+              Italiano, Asiático y Mexicano 
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Ven con tu Familia y Disfruta la Alegría de Sabores Irresistibles
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Nuestro Menú</span>
+
+              <span class="text text-2" aria-hidden="true">Nuestro Menú</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-3.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">amazing & delicious</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Donde cada sabor <br>
+              cuenta una historia
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Ven con tu Familia y Disfruta la Alegría de Sabores Irresistibles
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Nuestro Menú</span>
+
+              <span class="text text-2" aria-hidden="true">Nuestro Menú</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <!--<a href="#" class="hero-btn has-after">
+          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">Book A Table</span>
+        </a>-->
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container jose">
+
+          <p class="section-subtitle label-2">Lo Mejor de Cada Pais</p>
+
+          <h2 class="headline-1 section-title">Un Viaje de Sabores: Italia, Asia y México
+
+          </h2>
+
+          <p class="section-text">
+            Explora lo mejor de tres mundos gastronómicos en un solo lugar. Descubre la riqueza de la cocina italiana,
+            la autenticidad de los sabores asiáticos y la intensidad de la gastronomía mexicana. Haz clic abajo y déjate
+            llevar por nuestros menús especialmente diseñados para cada cultura.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-1.jpg" width="285" height="336" loading="lazy" alt="Breakfast"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Italian</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-2.jpg" width="285" height="336" loading="lazy" alt="Appetizers"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Mexican</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-3.jpg" width="285" height="336" loading="lazy" alt="Drinks"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Asian</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Nuestra Historia</p>
+
+            <h2 class="headline-1 section-title">Cada Sabor Cuenta Una Historia</h2>
+
+            <p class="section-text">
+              En nuestro restaurante, creemos que cada plato es una ventana a una cultura, una tradición y un momento
+              inolvidable. Desde la calidez reconfortante de una pasta italiana perfectamente elaborada, pasando por los
+              vibrantes matices de la cocina mexicana, hasta los delicados y sofisticados sabores de la gastronomía
+              asiática, nuestra misión es llevarte en un viaje culinario único.
+
+              Nos inspiramos en la autenticidad de las recetas tradicionales, combinándolas con toques modernos para
+              crear experiencias que van más allá del simple acto de comer. Aquí, cada ingrediente tiene un propósito,
+              cada especia narra un capítulo, y cada bocado despierta emociones.
+
+              Ven y descubre cómo cada sabor cuenta una historia que merece ser compartida. ¿Qué historia contarás hoy?
+            </p>
+
+            <div class="contact-label">Reserva llamando al</div>
+
+            <a href="tel:+ 34 604 20 26 05" class="body-1 contact-number hover-underline">+34 604 20 26 05</a>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">Read More</span>
+
+              <span class="text text-2" aria-hidden="true">Read More</span>
+            </a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.jpg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/about-abs-image.jpg" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+            <div class="abs-img abs-img-2 has-before">
+              <img src="./assets/images/badge-2.png" width="133" height="134" loading="lazy" alt="">
+            </div>
+
+          </figure>
+
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SPECIAL DISH
+      -->
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <img src="./assets/images/special-dish-banner.jpg" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">Special Dish</p>
+
+            <h2 class="headline-1 section-title">Lobster Tortellini</h2>
+
+            <p class="section-text">
+              Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the
+              industrys standard dummy text ever since the when an unknown printer took a galley of type.
+            </p>
+
+            <div class="wrapper">
+              <del class="del body-3">$40.00</del>
+
+              <span class="span body-1">$20.00</span>
+            </div>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">View All Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View All Menu</span>
+            </a>
+
+          </div>
+        </div>
+
+        <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+
+        <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #MENU
+      -->
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+
+          <p class="section-subtitle text-center label-2">Special Selection</p>
+
+          <h2 class="headline-1 section-title text-center">Delicious Menu</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-1.png" width="100" height="100" loading="lazy" alt="Greek Salad"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Greek Salad</a>
+                    </h3>
+
+                    <span class="badge label-1">Seasonal</span>
+
+                    <span class="span title-2">$25.50</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-2.png" width="100" height="100" loading="lazy" alt="Lasagne"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Lasagne</a>
+                    </h3>
+
+                    <span class="span title-2">$40.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-3.png" width="100" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Butternut Pumpkin</a>
+                    </h3>
+
+                    <span class="span title-2">$10.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-4.png" width="100" height="100" loading="lazy" alt="Tokusen Wagyu"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Tokusen Wagyu</a>
+                    </h3>
+
+                    <span class="badge label-1">New</span>
+
+                    <span class="span title-2">$39.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-5.png" width="100" height="100" loading="lazy" alt="Olivas Rellenas"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Olivas Rellenas</a>
+                    </h3>
+
+                    <span class="span title-2">$25.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/menu-6.png" width="100" height="100" loading="lazy" alt="Opu Fish"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Opu Fish</a>
+                    </h3>
+
+                    <span class="span title-2">$49.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <p class="menu-text text-center">
+            During winter daily from <span class="span">7:00 pm</span> to <span class="span">9:00 pm</span>
+          </p>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">View All Menu</span>
+
+            <span class="text text-2" aria-hidden="true">View All Menu</span>
+          </a>
+
+          <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+          <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-3 move-anim">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi text-center has-bg-image"
+        style="background-image: url('./assets/images/testimonial-bg.jpg')" aria-label="testimonials">
+        <div class="container">
+
+          <div class="quote">”</div>
+
+          <p class="headline-2 testi-text">
+            "¡Una experiencia deliciosa! El ambiente es acogedor, el servicio impecable, y cada platillo destaca por su sabor y frescura. Sin duda, un lugar al que querrás regresar."
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RESERVATION
+      -->
+
+      <section class="reservation" id="contact">
+        <div class=" rocky ">
+      
+          <div class="form-right rock text-center" style="background-image: url('./assets/images/form-pattern.png')">
+            <h2 class="coon text-center">Contáctanos</h2><br>
+      
+            <p class="cont">Reservas al:</p>
+            <br>
+            <a href="tel:+34 604 20 26 05" class="body-1  contin contact-number hover-underline">+34 604 20 26 05</a>
+      
+            <div class="separator"></div>
+      
+            <p class="contact-label">Ubicación</p>
+            <address class="bodyfit">
+              C. El Horno, 26, 38678 Adeje <br class="bcs"><br>
+              Santa Cruz de Tenerife
+            </address>
+      
+            <p class="contact-label">Horario Almuerzo</p>
+            <p class="bodyfit">
+              Lunes - Domingo <br class="bcs"><br>
+              10.00 am - 2.30pm
+            </p>
+      
+            <p class="contact-label">Horario Cena</p>
+            <p class="bodyfit">
+              Lunes - Domingo <br class="bcs"><br>
+              2.30 pm - 10.00pm
+            </p>
+          </div>
+      
+        </div>
+      </section>
+      
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features text-center" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle label-2">¿Por qué elegirnos?</p>
+
+          <h2 class="headline-1 section-title">Nuestros Puntos Fuertes</h2>
+
+          <ul class="grid-list">
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                
+                    <div class="card-icon">
+                      <img src="./assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="icon">
+                    </div>
+                
+                    <h3 class="title-2 card-title">Comida Higiénica</h3>
+                
+                    <p class="label-1 card-text">Nos aseguramos de que todos nuestros platillos se preparen con los más altos estándares de higiene, garantizando la salud y el bienestar de nuestros comensales.</p>
+                
+                  </div>
+                </li>
+                
+                <li class="feature-item">
+                  <div class="feature-card">
+                
+                    <div class="card-icon">
+                      <img src="./assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon">
+                    </div>
+                
+                    <h3 class="title-2 card-title">Ambiente Fresco</h3>
+                
+                    <p class="label-1 card-text">El ambiente de nuestro restaurante está diseñado para ofrecerte una experiencia agradable y relajante, con un espacio siempre limpio y cómodo.</p>
+                
+                  </div>
+                </li>
+                
+                <li class="feature-item">
+                  <div class="feature-card">
+                
+                    <div class="card-icon">
+                      <img src="./assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon">
+                    </div>
+                
+                    <h3 class="title-2 card-title">Chefs Expertos</h3>
+                
+                    <p class="label-1 card-text">Nuestro equipo de chefs altamente capacitados utiliza ingredientes frescos y técnicas innovadoras para ofrecerte una experiencia culinaria excepcional.</p>
+                
+                  </div>
+                </li>
+                
+                <li class="feature-item">
+                  <div class="feature-card">
+                
+                    <div class="card-icon">
+                      <img src="./assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon">
+                    </div>
+                
+                    <h3 class="title-2 card-title">Eventos y Fiestas</h3>
+                
+                    <p class="label-1 card-text">Además de nuestra comida, ofrecemos servicios para eventos y fiestas, creando momentos inolvidables con nuestro delicioso menú y atención personalizada.</p>
+                
+                  </div>
+                </li>
+                
+
+          <img src="./assets/images/shape-7.png" width="208" height="178" loading="lazy" alt="shape"
+            class="shape shape-1">
+
+          <img src="./assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape"
+            class="shape shape-2">
+
+        </div>
+      </section>
+
+      <!-- 
+    - #FOOTER
+  -->
+
+      <footer class="footer section has-bg-image text-center"
+        style="background-image: url('./assets/images/footer-bg.jpg')">
+        <div class="container">
+
+          <div class="footer-top grid-list">
+
+            <div class="footer-brand has-before has-after">
+
+              <a href="#" class="logo">
+                <img src="./assets/images//Atelier 78.png" width="160" height="50" loading="lazy" alt="grilli home">
+              </a>
+
+              <address class="body-4">
+                C. El Horno, 26, 38678 Adeje, Santa Cruz de Tenerife
+              </address>
+
+              <a href="mailto:booking@grilli.com" class="body-4 contact-link">booking@grilli.com</a>
+
+              <a href="tel:+ 34 604 20 26 05" class="body-4 contact-link">Reservas : + 34 604 20 26 05 </a>
+
+              <p class="body-4">
+                Open : 10:00 am - 22:00 pm
+              </p>
+
+              <div class="wrapper">
+                <div class="separator"></div>
+                <div class="separator"></div>
+                <div class="separator"></div>
+              </div>
+
+
+            </div>
+
+            <ul class="footer-list">
+
+              <li>
+                <a href="#home" class="label-2 footer-link hover-underline">Home</a>
+              </li>
+
+              <li>
+                <a href="#menu" class="label-2 footer-link hover-underline">Menus</a>
+              </li>
+
+              <li>
+                <a href="#about" class="label-2 footer-link hover-underline">About Us</a>
+              </li>
+
+
+              <li>
+                <a href="#contact" class="label-2 footer-link hover-underline">Contact</a>
+              </li>
+
+            </ul>
+
+            <ul class="footer-list">
+
+              <li>
+                <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+              </li>
+
+              <li>
+                <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+              </li>
+
+              <li>
+                <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+              </li>
+
+              <li>
+                <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+              </li>
+
+              <li>
+                <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="footer-bottom">
+
+            <p class="copyright">
+              &copy; 2024 Atelier 78. All Rights Reserved | Crafted by <a
+                href="https://sergio-socas-dev.github.io/Portafolio/index.html/" target="_blank"
+                class="link">Sergio Socas</a>
+            </p>
+
+          </div>
+
+        </div>
+      </footer>
+
+
+
+
+
+      <!-- 
+    - #BACK TO TOP
+  -->
+
+      <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+      </a>
+
+
+
+
+
+      <!-- 
+    - custom js link
+  -->
+      <script src="./assets/js/script.js"></script>
+
+      <!-- 
+    - ionicon link
+  -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
